@@ -1,8 +1,18 @@
+
+body {
+  display: flex;
+  justify-content: center
+}
+
 .thankyou {
   font-family: "Roboto, Helvetical, Arial, sans-serif";
   font-size: 1.25rem;
+   text-align: center;
   color: #fff;
   background-color: #5f0a87;
   padding: 1em 2.5em;
-   box-shadow: 5px 5px solid black;
+   box-shadow: 5px 5px black;
+  width: 300px;
 }
+
+
