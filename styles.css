@@ -1,18 +1,22 @@
 
 body {
   display: flex;
-  justify-content: center
+  align-items: center;
+  justify-content: center;
 }
 
 .thankyou {
-  font-family: "Roboto, Helvetical, Arial, sans-serif";
-  font-size: 1.25rem;
-   text-align: center;
+  text-align: center;
   color: #fff;
-  background-color: #5f0a87;
-  padding: 1em 2.5em;
-   box-shadow: 5px 5px black;
-  width: 300px;
+  background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+  padding: 2em;
+  margin-top: 3em;
+  max-width: 900px;
+  border: 1px solid #a4508b;
+  border-radius: 10px;
+  box-shadow: 1rem 1rem 0rem #2c2c2c;
 }
 
-
+a {
+  color: #000;
+}
